@@ -1,11 +1,11 @@
 /* Theme Description
 -------------------------------------------------
 
-	  Theme Name:
-	  Author:
-	  Support:
-	  Description:
-	  Version:
+	  Theme Name: A City on a Hill
+	  Author: Kevin Cross Minchakpu
+	  Support: All Browsers
+	  Description: This is the official website codes for the City on a Hill.
+	  Version: 1.0
 	  
 ------------------------------------------------- 
 */
@@ -27,65 +27,62 @@
 */
 /*-------------   Color Variable  --------------*/
 @import url("https://fonts.googleapis.com/css?family=Alex+Brush|Roboto:300,400,700,900|Titillium+Web:300,400,600,700&display=swap");
-/* line 34, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_color.scss */
+
 .white-bg {
   background: #ffffff;
 }
 
-/* line 37, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_color.scss */
 .gray-bg {
   background: #f5f5f5;
 }
 
 /*-------------Color include--------------*/
 /*-- Background color---*/
-/* line 74, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_color.scss */
 .section-bg1 {
   background: #13151b;
 }
 
-/* line 78, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_color.scss */
+
 .gray-bg {
   background: #f7f7fd;
 }
 
-/* line 81, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_color.scss */
 .white-bg {
   background: #ffffff;
 }
 
-/* line 84, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_color.scss */
+
 .black-bg {
   background: #16161a;
 }
 
-/* line 87, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_color.scss */
+
 .theme-bg {
   background: #14435c;
 }
 
-/* line 90, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_color.scss */
+
 .brand-bg {
   background: #f1f4fa;
 }
 
-/* line 93, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_color.scss */
+
 .testimonial-bg {
   background: #f9fafc;
 }
 
 /*--- color------*/
-/* line 99, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_color.scss */
+
 .white-color {
   color: #ffffff;
 }
 
-/* line 102, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_color.scss */
+
 .black-color {
   color: #16161a;
 }
 
-/* line 105, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_color.scss */
+
 .theme-color {
   color: #14435c;
 }
@@ -95,7 +92,7 @@
 	@include transition(.4s);
 	color:$theme-color;
 */
-/* line 58, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_variables.scss */
+
 .boxed-btn {
   background: #fff;
   color: #14435c !important;
@@ -113,19 +110,18 @@
   cursor: pointer;
 }
 
-/* line 75, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_variables.scss */
 .boxed-btn:hover {
   background: #14435c;
   color: #fff !important;
   border: 1px solid #14435c;
 }
 
-/* line 80, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_variables.scss */
+
 .boxed-btn:focus {
   outline: none;
 }
 
-/* line 83, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_variables.scss */
+
 .boxed-btn.large-width {
   width: 220px;
 }
@@ -133,7 +129,7 @@
 /*--
     - Overlay
 ------------------------------------------*/
-/* line 4, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_overlay.scss */
+
 [data-overlay] {
   position: relative;
   background-size: cover;
@@ -141,7 +137,7 @@
   background-position: center center;
 }
 
-/* line 9, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_overlay.scss */
+
 [data-overlay]::before {
   position: absolute;
   left: 0;
@@ -152,60 +148,60 @@
 }
 
 /*-- Overlay Opacity --*/
-/* line 22, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_overlay.scss */
+
 [data-opacity="1"]::before {
   opacity: 0.1;
 }
 
-/* line 27, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_overlay.scss */
+
 [data-opacity="2"]::before {
   opacity: 0.2;
 }
 
-/* line 32, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_overlay.scss */
+
 [data-opacity="3"]::before {
   opacity: 0.3;
 }
 
-/* line 37, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_overlay.scss */
+
 [data-opacity="4"]::before {
   opacity: 0.4;
 }
 
-/* line 42, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_overlay.scss */
+
 [data-opacity="5"]::before {
   opacity: 0.5;
 }
 
-/* line 47, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_overlay.scss */
+
 [data-opacity="6"]::before {
   opacity: 0.6;
 }
 
-/* line 52, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_overlay.scss */
+
 [data-opacity="7"]::before {
   opacity: 0.7;
 }
 
-/* line 57, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_overlay.scss */
+
 [data-opacity="8"]::before {
   opacity: 0.8;
 }
 
-/* line 62, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_overlay.scss */
+
 [data-opacity="9"]::before {
   opacity: 0.9;
 }
 
 /* 1. Theme default css */
-/* line 4, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_common.scss */
+
 body {
   font-family: "Poppins", sans-serif;
   font-weight: normal;
   font-style: normal;
 }
 
-/* line 9, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_common.scss */
+
 h1,
 h2,
 h3,
@@ -220,7 +216,7 @@ h6 {
   text-transform: normal;
 }
 
-/* line 23, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_common.scss */
+
 p {
   font-family: "Poppins", sans-serif;
   color: #10285d;
@@ -230,32 +226,32 @@ p {
   font-weight: normal;
 }
 
-/* line 34, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_common.scss */
+
 .single-brand.slick-slide {
   outline: 0;
 }
 
-/* line 37, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_common.scss */
+
 .slick-initialized .slick-slide {
   outline: 0;
 }
 
-/* line 42, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_common.scss */
+
 .bg-img-1 {
   background-image: url(../img/slider/slider-img-1.jpg);
 }
 
-/* line 45, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_common.scss */
+/
 .bg-img-2 {
   background-image: url(../img/background-img/bg-img-2.jpg);
 }
 
-/* line 48, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_common.scss */
+
 .cta-bg-1 {
   background-image: url(../img/background-img/bg-img-3.jpg);
 }
 
-/* line 53, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_common.scss */
+
 .img {
   max-width: 100%;
   -webkit-transition: all 0.3s ease-out 0s;
@@ -265,27 +261,27 @@ p {
   transition: all 0.3s ease-out 0s;
 }
 
-/* line 57, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_common.scss */
+
 .f-left {
   float: left;
 }
 
-/* line 60, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_common.scss */
+
 .f-right {
   float: right;
 }
 
-/* line 63, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_common.scss */
+
 .fix {
   overflow: hidden;
 }
 
-/* line 66, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_common.scss */
+
 .clear {
   clear: both;
 }
 
-/* line 70, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_common.scss */
+
 a,
 .button {
   -webkit-transition: all 0.3s ease-out 0s;
@@ -295,24 +291,24 @@ a,
   transition: all 0.3s ease-out 0s;
 }
 
-/* line 74, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_common.scss */
+
 a:focus,
 .button:focus {
   text-decoration: none;
   outline: none;
 }
 
-/* line 79, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_common.scss */
+
 a {
   color: #635c5c;
 }
 
-/* line 82, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_common.scss */
+
 a:hover {
   color: #fff;
 }
 
-/* line 85, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_common.scss */
+
 a:focus,
 a:hover,
 .portfolio-cat a:hover,
@@ -320,24 +316,24 @@ a:hover,
   text-decoration: none;
 }
 
-/* line 91, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_common.scss */
+
 a,
 button {
   color: #fff;
   outline: medium none;
 }
 
-/* line 96, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_common.scss */
+
 button:focus, input:focus, input:focus, textarea, textarea:focus {
   outline: 0;
 }
 
-/* line 97, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_common.scss */
+
 .uppercase {
   text-transform: uppercase;
 }
 
-/* line 101, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_common.scss */
+
 input:focus::-moz-placeholder {
   opacity: 0;
   -webkit-transition: .4s;
@@ -345,12 +341,12 @@ input:focus::-moz-placeholder {
   transition: .4s;
 }
 
-/* line 108, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_common.scss */
+
 .capitalize {
   text-transform: capitalize;
 }
 
-/* line 112, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_common.scss */
+
 h1 a,
 h2 a,
 h3 a,
@@ -360,7 +356,7 @@ h6 a {
   color: inherit;
 }
 
-/* line 121, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_common.scss */
+
 ul {
   margin: 0px;
   padding: 0px;
@@ -786,7 +782,7 @@ hero-btn {
 /* Sticky end */
 /*--- Margin & Padding --*/
 /*-- Margin Top --*/
-/* line 486, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_common.scss */
+
 .mt-5 {
   margin-top: 5px;
 }
@@ -3249,7 +3245,7 @@ hero-btn {
 
 /* line 30, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_headerMenu.scss */
 .header-area .header-top {
-  background: #0d2d3e;
+  background: #1a2125;
   padding: 13px 0px;
 }
 
@@ -3296,6 +3292,8 @@ hero-btn {
 .main-header {
   position: relative;
   z-index: 3;
+  background-color: #333;
+  height: 170px;
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
@@ -3314,11 +3312,12 @@ hero-btn {
 
 /* line 85, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_headerMenu.scss */
 .main-header .main-menu ul li a {
-  color: #0d2d3e;
+  color: whitesmoke;
   font-weight: 400;
+  font-family:Arial, Helvetica, sans-serif;
   padding: 39px 19px;
   display: block;
-  font-size: 16px;
+  font-size: 18px;
   -webkit-transition: all 0.3s ease-out 0s;
   -moz-transition: all 0.3s ease-out 0s;
   -ms-transition: all 0.3s ease-out 0s;
